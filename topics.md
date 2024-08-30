@@ -54,8 +54,10 @@ Superconducting Circuit
 ## AMO topics
 classical light matter interaction
 - light are classical EM wave and atom can be modeled as a electric dipole
+
 Semi-classical light matter interaction
 - light are classical EM wave but atom are modeled as as a 2 level system  
+
 Quantum light matter interaction
 - light are quantized EM wave and atom are also quantized energy state
 
