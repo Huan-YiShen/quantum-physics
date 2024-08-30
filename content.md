@@ -1,0 +1,48 @@
+## Quantum Mechanics Fundamentals
+- Wavefunction introduction
+- Operator introduction
+
+## Quantum Computing Platform
+DiVincenzo Criteria
+
+NMR
+- Qubit implementation: The 2 Level system
+- Larmor precession and Zeeman Splitting
+- Rabi Oscillation and Control 
+- 2 Qubit Interaction: J-coupling
+
+Photonic
+- Optic Review (geometric --> physical --> quantum optics)
+- Linear Optic Quantum Computation (Dual rail encoding, phase shifter, beam splitter)
+- Single Photon Source (SPDC, Cavity Quantum Dot...)
+- Single Photon Detector (APD, SPAD, SNSPD, TES...)
+- Cluster State
+- Continuoue Variable QC
+- Free Space Bulk Optics vs. Integrated Photonic
+
+Trapped Ion
+- Ion traps (Spinning settle trap, linear Paul Trap, surface trap potential...)
+- Qubit encoding
+- Control: Laser cooling
+
+Superconducting Circuit
+- Superconductivity
+- Quantized electromagnetic radiation
+
+## AMO topics
+classical light matter interaction
+- light are classical EM wave and atom can be modeled as a electric dipole
+Semi-classical light matter interaction
+- light are classical EM wave but atom are modeled as as a 2 level system  
+Quantum light matter interaction
+- light are quantized EM wave and atom are also quantized energy state
+
+## Quantum Computing Algorithms
+- Superdense Coding
+- Quantum Teleportation
+
+## Quantum Information
+
+## Resources:
+- How to learn quantum computing https://www.mit.edu/~aram/advice/quantum.html
+- Lecture note for introductory level quantum complexity theory: https://anuraganshu.seas.harvard.edu/files/anshu/files/cs_231_scribe_notes1.pdf
