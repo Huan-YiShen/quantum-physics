@@ -1,11 +1,11 @@
 # Quantum Mechanics Fundamentals
-### Wavefunction introduction
+### Introduction (Wavefunction approach)
 - The double slit experiment 
 - The Wavefunction and Probability Distribution Function
 - Schrodinger's Equation
 - Operator and Expectations of a measurement
 - The uncertainty Relation between Position & Momentum
-### Operator introduction
+### Introduction (Operator approach)
 - The Stern Gerlach experiment
 - Spin (2 Level Qubit) & Bloch Sphere --> Density matrix
 - Unitary Evolutionary Operator
@@ -29,7 +29,7 @@
 - Quantum Circuit Model
 
 ### NMR
-- Qubit implementation: The 2 Level system
+- Qubit implementation: The 2 Level system <-- fundamental concept
 - Larmor precession and Zeeman Splitting
 - Rabi Oscillation and Control 
 - 2 Qubit Interaction: J-coupling
@@ -39,9 +39,8 @@
 - Linear Optic Quantum Computation (Dual rail encoding, phase shifter, beam splitter)
 - Single Photon Source (SPDC, Cavity Quantum Dot...)
 - Single Photon Detector (APD, SPAD, SNSPD, TES...)
-- Cluster State
-- Continuoue Variable QC
-- Free Space Bulk Optics vs. Integrated Photonic
+- Advanced topics (cluster state, continuoue variable QC)
+- Advanced topics (Free Space Bulk Optics vs. Integrated Photonic)
 
 ### Trapped Ion
 - Ion traps (Spinning settle trap, linear Paul Trap, surface trap potential...)
@@ -73,4 +72,5 @@ Cavity QED
 # Resources
 - How to learn [quantum computing](https://www.mit.edu/~aram/advice/quantum.html)
 - [Lecture note](https://anuraganshu.seas.harvard.edu/files/anshu/files/cs_231_scribe_notes1.pdf) for introductory level quantum complexity theory
-- [Lecture note](https://cleve.iqc.uwaterloo.ca/resources/QIC-710-F24/Qic710QuantumAlgorithms2024V3.pdf) by Professor Cleve on introductory theory of quantum information
+- [Lecture note](https://cleve.iqc.uwaterloo.ca/resources/QIC-710-F24/Qic710QuantumAlgorithms2024V3.pdf) by Professor Cleve on introductory theory of quantum information.
+- IQC at the University of Waterloo offers IQC710 and IQC750 as introductory courses on quantum information. IQC710 covers theory (see Prof. Cleve's lecture) and IQC750 covers experimental topics (see QC platform section).
