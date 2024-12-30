@@ -4,7 +4,7 @@
 - The Wavefunction and Probability Distribution Function
 - Schrodinger's Equation
 - Operator and Expectations of a measurement
-- The uncertainty Relation between Position & Momentum
+- The Uncertainty Relation between Position & Momentum
 ### Introduction (Operator approach)
 - The Stern Gerlach experiment
 - Spin (2 Level Qubit) & Bloch Sphere --> Density matrix
@@ -29,7 +29,7 @@
 - Quantum Circuit Model
 
 ### NMR
-- Qubit implementation: The 2 Level system <-- fundamental concept
+- Qubit implementation: The 2 Level system <-- fundamental concept (see intro to spin)
 - Larmor precession and Zeeman Splitting
 - Rabi Oscillation and Control 
 - 2 Qubit Interaction: J-coupling
