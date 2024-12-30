@@ -1,17 +1,17 @@
-## Quantum Mechanics Fundamentals
-- Wavefunction introduction
+# Quantum Mechanics Fundamentals
+### Wavefunction introduction
     - The double slit experiment 
     - The Wavefunction and Probability Distribution Function
     - Schrodinger's Equation
     - Operator and Expectations of a measurement
     - The uncertainty Relation between Position & Momentum
-- Operator introduction
+### Operator introduction
     - The Stern Gerlach experiment
     - Spin (2 Level Qubit) & Bloch Sphere --> Density matrix
     - Unitary Evolutionary Operator
     - Quantum Measurement & Superposition
     - Entanglement
-- Solving the Schrodinger's Equation with different Potentials
+### Solving the Schrodinger's Equation with different Potentials
     - Infinite Square Well (Particle in a box)
     - Quantum Harmonic Potential 
     - Free Particle
@@ -21,19 +21,19 @@
 - Heisenberg picture and the Interaction picture
 
 
-## Quantum Computing Platform
-Quantum Computer Basic
+# Quantum Computing Platform
+### Quantum Computer Basic
 - DiVincenzo Criteria
 - Qubit and Quantum Gates
 - Quantum Circuit Model
 
-NMR
+### NMR
 - Qubit implementation: The 2 Level system
 - Larmor precession and Zeeman Splitting
 - Rabi Oscillation and Control 
 - 2 Qubit Interaction: J-coupling
 
-Photonic
+### Photonic
 - Optic Review (geometric --> physical --> quantum optics)
 - Linear Optic Quantum Computation (Dual rail encoding, phase shifter, beam splitter)
 - Single Photon Source (SPDC, Cavity Quantum Dot...)
@@ -42,16 +42,16 @@ Photonic
 - Continuoue Variable QC
 - Free Space Bulk Optics vs. Integrated Photonic
 
-Trapped Ion
+### Trapped Ion
 - Ion traps (Spinning settle trap, linear Paul Trap, surface trap potential...)
 - Qubit encoding
 - Control: Laser cooling
 
-Superconducting Circuit
+### Superconducting Circuit
 - Superconductivity
 - Quantized electromagnetic radiation
 
-## AMO topics
+# Topics on AMO Physics 
 classical light matter interaction
 - light are classical EM wave and atom can be modeled as a electric dipole
 
@@ -61,12 +61,15 @@ Semi-classical light matter interaction
 Quantum light matter interaction
 - light are quantized EM wave and atom are also quantized energy state
 
-## Quantum Computing Algorithms
+Cavity QED
+
+# Quantum Algorithms and Protocols
 - Superdense Coding
 - Quantum Teleportation
 
-## Quantum Information
+# Quantum Information
 
-## Resources:
-- How to learn quantum computing https://www.mit.edu/~aram/advice/quantum.html
-- Lecture note for introductory level quantum complexity theory: https://anuraganshu.seas.harvard.edu/files/anshu/files/cs_231_scribe_notes1.pdf
+# Resources
+- How to learn [quantum computing](https://www.mit.edu/~aram/advice/quantum.html)
+- [Lecture note](https://anuraganshu.seas.harvard.edu/files/anshu/files/cs_231_scribe_notes1.pdf) for introductory level quantum complexity theory
+- [Lecture note](https://cleve.iqc.uwaterloo.ca/resources/QIC-710-F24/Qic710QuantumAlgorithms2024V3.pdf) by Professor Cleve on introductory theory of quantum information

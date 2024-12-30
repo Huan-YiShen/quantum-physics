@@ -1,0 +1,35 @@
+# Intro to QM (wavefunction)
+### The double slit experiment 
+- This is a classic experiment that demostrate the `wave particle dulity` property of quantum particles. 
+- This property cannot be explained with classical theory in physics. This experiment, among with others (such as the photoelectric effect), led physicists to develop a new theory aim to explain these new observations. This theory matured around the mid 20th centry, and was named quantum mechanics.
+
+### The Wavefunction and Probability Distribution Function
+The wavefunction $\Psi(\vec x, t)$
+- Quantum physics describes the mechanics of *quantum systems* (quantum particles, information, their interactions, etc). 
+- The state of a quantum system is described mathematically via the *wavefunction*.
+- The wavefunction has position and time as inputs and a complex value as the ouput. It is commonly denoted by greek letter psi 
+$$\Psi(\vec x, t)$$
+
+Physical interpretation of $\Psi$
+- $\Psi$ itself does not represent anything physical
+- Historically $\Psi$ is simply denote the of solution of the Schrodinger's Equation.
+- $\Psi$ contains information about the quantum system, and we can extract physical information from $\Psi$ by performing operations on it (such as an observation) - more on this later
+- For example: one can extract the probability of the position of a quantum particle from $\Psi$ like the following
+$$ P(\vec x) = |\Psi(\vec x, t)|^2$$
+
+$P(\vec x)$ satisfies the criteria of a probability distribution function (PDF). 
+- like PDF, integrating it over all position will result in 1. it means that it is with 100% certainty that the particle will exist somewhere in space. The particle will not vanish, thus satisfies the conservation laws in nature.
+- as to why $|\Psi(\vec x, t)|^2$ - the amplitude of the $\Psi$ - is a PDF is still an open question in physics. This line of question lead to the discussion of the different interpretations of quantum mechanics. Such as the *Copenhagen Interpretation* or the *Many World Interpretation*. But to understand those, we need to first understand the operators and the time evolution of wavefunctions.
+
+
+
+### The Schrodinger's Equation
+A differential equation that describes how the $\Psi$ evolves with time
+
+The solution of this differetial equation is $\Psi$
+
+### Operator and Expectations of a measurement
+
+
+### The uncertainty Relation between Position & Momentum
+
