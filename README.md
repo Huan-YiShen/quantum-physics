@@ -1,5 +1,5 @@
 # quantum-physics
-a place where the author records and organizes his knowledge base in quantum physics. In aims to build an understanding of quantum computing and foundational theoretical physics
+This repository records the authors working knowledge in quantum physics with an explicit focus on building an understanding of quantum computing and foundational theoretical physics.
 
 
-[Table of content](topics.md)
+[Table of content - topics](topics.md)
