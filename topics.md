@@ -1,23 +1,24 @@
 # Quantum Mechanics Fundamentals
 ### Wavefunction introduction
-    - The double slit experiment 
-    - The Wavefunction and Probability Distribution Function
-    - Schrodinger's Equation
-    - Operator and Expectations of a measurement
-    - The uncertainty Relation between Position & Momentum
+- The double slit experiment 
+- The Wavefunction and Probability Distribution Function
+- Schrodinger's Equation
+- Operator and Expectations of a measurement
+- The uncertainty Relation between Position & Momentum
 ### Operator introduction
-    - The Stern Gerlach experiment
-    - Spin (2 Level Qubit) & Bloch Sphere --> Density matrix
-    - Unitary Evolutionary Operator
-    - Quantum Measurement & Superposition
-    - Entanglement
+- The Stern Gerlach experiment
+- Spin (2 Level Qubit) & Bloch Sphere --> Density matrix
+- Unitary Evolutionary Operator
+- Quantum Measurement & Superposition
+- Entanglement
 ### Solving the Schrodinger's Equation with different Potentials
-    - Infinite Square Well (Particle in a box)
-    - Quantum Harmonic Potential 
-    - Free Particle
-    - Delta Potential
-    - Finite Square Well
+- Infinite Square Well (Particle in a box)
+- Quantum Harmonic Potential 
+- Free Particle
+- Delta Potential
+- Finite Square Well
 
+### Advanced tools
 - Heisenberg picture and the Interaction picture
 
 
