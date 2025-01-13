@@ -12,9 +12,6 @@
     - quantum complexity classes: QMA, QMA-complete, BQP
   - Quantum Gates
     - universal gate set
-      - in general, the formation of universal gate set contain
-        - two distict single-qubit gates (so you can do arbitrary operations on the bloch sphere - superposition)
-        - one two-qubit gate (enable entaglement) 
     - specific example: Harnamard, CNOT, TOFFLE
     - measurements
   - Quantum Circuits
@@ -22,4 +19,20 @@
   - noise and coherence (T1, T2, fidelity) 
 
 
+
+## The Qubit
+Qubit is the fundamental unit of computing in quantum information processing. Analgous to classical bits, it has 2 states.
+
+$$ \ket0 = 
+\begin(matrix)
+1 \\
+0 
+\end(matrix) 
+$$
+
+## Quantum Gates
+universal gate set:
+- in general, the formation of universal gate set contain
+  - two distict single-qubit gates (so you can do arbitrary operations on the bloch sphere - superposition)
+  - one two-qubit gate (enable entaglement) 
 

@@ -24,7 +24,7 @@ The amplitude square of the $\Psi$ satisfies the criteria of a probability distr
 
 
 
-### The Schrodinger's Equation
+### The Schrodinger's Equation - Dynamics of quantum system
 A differential equation that describes how the $\Psi$ evolves with time
 
 $$i\hbar \frac{\partial \Psi(\vec x, t)}{\partial t} = \hat H \Psi(\vec x, t)$$

@@ -9,7 +9,7 @@
 ### The Hilbert Space
 - Discrete & Continuous
 - inner product & outer product
-- Basis
+- Basis & completeness
 - Linearity
 - Identity
 - Closure relation
