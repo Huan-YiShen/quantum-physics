@@ -24,11 +24,19 @@
 Qubit is the fundamental unit of computing in quantum information processing. Analgous to classical bits, it has 2 states.
 
 $$ \ket0 = 
-\begin(matrix)
+\begin{bmatrix}
 1 \\
 0 
-\end(matrix) 
+\end{bmatrix}
+\text{ and }
+\ket1 = 
+\begin{bmatrix}
+0 \\
+1 
+\end{bmatrix}
 $$
+
+Note: Different from classical bits we need to use a 2 dimensional array to represent a qubit. This is necessary to model qubits' superposition and entanglement behaviour. 
 
 ## Quantum Gates
 universal gate set:
