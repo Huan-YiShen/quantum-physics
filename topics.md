@@ -21,13 +21,15 @@
 ### Advanced tools
 - Heisenberg picture and the Interaction picture
 
+# Quantum Computing Basics basics
+- DiVincenzo Criteria
+- Qubit and Quantum Gates --> universal gate set
+- Quantum Circuit Model
+- Clifford Gate & Groups -> Gottesman-knill theorem
+- Strong, Local, Exotic measurements
+- Density operators
 
 # Quantum Computing Platform
-### Quantum Computer Basic
-- DiVincenzo Criteria
-- Qubit and Quantum Gates
-- Quantum Circuit Model
-
 ### NMR
 - Qubit implementation: The 2 Level system <-- fundamental concept (see intro to spin)
 - Larmor precession and Zeeman Splitting
@@ -63,11 +65,18 @@ Quantum light matter interaction
 
 Cavity QED
 
-# Quantum Algorithms and Protocols
-- Superdense Coding
-- Quantum Teleportation
-
-# Quantum Information
+# Quantum Algorithms
+- Quantum parallelism & reversibility (superposition, entanglement, and the non-cloning thoerem)
+- Superdense Coding --> Quantum Teleportation --> Entanglement Swapping
+- QKD (BB84 protocol)
+- Black box algorithm --> Deutsch-Jozsa Algorithm, Simon's Algorithm
+- Quantum Fourier Transform
+- Quantum Phase estiation 
+- Order finding problem --> Shor's Algorithm
+- Unordered Search: Grover's Algorithm
+- Quantum Error Correction
+- LAB: Circuit implementation in Python using Qiskit
+- LAB: circuit design (ex: implement SWAP with CNOT gates...)
 
 # Resources
 - How to learn [quantum computing](https://www.mit.edu/~aram/advice/quantum.html)
