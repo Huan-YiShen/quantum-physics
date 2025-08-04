@@ -11,7 +11,7 @@
 - Unitary Evolutionary Operator
 - Quantum Measurement & Superposition
 - Entanglement
-### Solving the Schrodinger's Equation with different Potentials
+### Solving the Schrodinger's Equation with different potentials
 - Infinite Square Well (Particle in a box)
 - Quantum Harmonic Potential 
 - Free Particle
@@ -21,7 +21,7 @@
 ### Advanced tools
 - Heisenberg picture and the Interaction picture
 
-# Quantum Computing Basics basics
+# Quantum Computing Basics
 - DiVincenzo Criteria
 - Qubit and Quantum Gates --> universal gate set
 - Quantum Circuit Model

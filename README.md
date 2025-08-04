@@ -1,5 +1,5 @@
 # quantum-physics 
-This repository records the authors working knowledge in quantum physics with an explicit focus on building an understanding of quantum computing and foundational theoretical physics.
+This repository records the authors working knowledge in quantum physics with an explicit focus on quantum information, computing, and quantum theory.
 
 WIP (work in progress)
 
