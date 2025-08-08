@@ -17,8 +17,28 @@
 - Free Particle
 - Delta Potential
 - Finite Square Well
-
-### Advanced tools
+### Quantization of angular momentum
+- Orbital angular momentum and J^2 --> Commutation relation (simulatenous measurement)
+- Common eigen basis + their eigenstates (x2)
+- Ladder operators
+- Quantization & matrix representation
+- Addition of angular momentum
+- Selection rules (CG coefficient, basis counting)
+### Perturbation Thoery
+- non-degenerate 1st order energy & state correction
+- non-degenerate higher order correction
+- Dengerate 1st order energy correction...  
+### Model the Hydrogen Atom
+- Gross structure (Spherical harmoni + 3D central potential)
+- Fine structure (spin-orbit and relativistic effect)
+- Hyperfine structure
+- Measuring hyperfine splitting with **Zeeman effect**
+### Identical particle
+- Fermion & Boson
+- Spatial wavefunction + spin wavefunction
+- Restriction on spatial wavefunction
+### Other Topics and Advanced tools
+- Variational Methods
 - Heisenberg picture and the Interaction picture
 
 # Quantum Computing Basics
