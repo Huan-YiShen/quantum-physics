@@ -100,7 +100,7 @@ $$ \sigma_z = \begin{bmatrix}
 = i(\ket 0 \bra 0 - \ket 1 \bra 1)$$
 
 To visulize the effect of each operators, use the right-hand-rule. Point the thumb along the positive axis and see the direction the fingers curve. For Pauli X opeartor ($\sigma_x$), point thumb towards the positive x-axis, and see how to finger rotates. 
-It should be clear that a state vector pointing towards X ($\ket{\psi} = \frac{1}{\sqrt2} (\ket 0 + \ket 1$) would not have affect by Pauli X, but a $\ket 0 $ state would flip to $\ket 1$. 
+It should be clear that a state vector pointing towards X, $\ket{\psi} = \frac{1}{\sqrt2} \left(\ket 0 + \ket 1 \right)$, would not have affect by Pauli X, but a $\ket 0 $ state would flip to $\ket 1$. 
 In common 3D coordinate illustrations where z+ is up, y+ is right, and x+ is out of the page. 
 
 Property of Pauli Matrix
