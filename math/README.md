@@ -2,9 +2,9 @@ This directory will be for any preliminary mathematics needed to study quantum p
 
 # Linear Algebra
 - Vector spaces
-- Basis and subspace
+- Basis and subspaces
 - Projections
-- Linear Transformations --> Change of basis operations 
+- Linear Transformations (operators) --> Change of basis operations 
 - Determinate
 - Eigenvalue & eigenbasis
 # Probability Theory
@@ -32,6 +32,7 @@ This directory will be for any preliminary mathematics needed to study quantum p
 - Predicate Logic
 # Optimization
 - Problem modeling (objective function, constraints, and decision variables)
-- Linear prorgamming
-- Convex optimization
+- Linear programming
+- Integer programming
+- Non-linear programming --> Convex optimization
 - Operation Research
