@@ -1,5 +1,5 @@
 # Change of Basis (Basic)
-Motivation: In Quantum mechanics and linear algebra, the operation to change the basis of a vector is a fundamental procedure that is useful to simplify calculations, visulize problems, and can help teach students the process of constructing an useful operator from scratch. For more professional resources go directly to [reference section](#Reference-&-Examples).
+Motivation: In Quantum mechanics and linear algebra, the operation to change the basis of a vector is a fundamental procedure that is useful to simplify calculations, visulize problems, and can help teach students the process of constructing an useful operator from scratch. For more professional resources go directly to [reference section](#Reference--Examples).
 
 Goal: As the name suggest, the goal of the operation is to change a vector from one basis representation to another (i.e. from basis A = {[1,0], [0,1]} to B = {[1,1], [1,-1]}).
 
