@@ -4,9 +4,9 @@ Motivation: In Quantum mechanics and linear algebra, the operation to change the
 Goal: As the name suggest, the goal of the operation is to change a vector from one basis representation to another (i.e. from basis A = {[1,0], [0,1]} to B = {[1,1], [1,-1]}).
 
 Since how we describe operations in linear algebra is via linear operators (matrices), our goal is to create a matrix that transforms the basis. Namely,
-<p align="center">
-  $[v]_{B} = S_{A \rightarrow B}[v]_{A}$
-<p/>
+<!-- <p align="center"> -->
+$$[v]_{B} = S_{A \rightarrow B}[v]_{A}$$
+<!-- <p/> -->
 
 where
 - $[v]_A$ is the vector in basis A
@@ -29,9 +29,7 @@ notice: $[v]_A = v_1a_1+v_2a_2+...+v_na_n$ and $[v]_B = v_1b_1+v_2b_2+...+v_nb_n
 * notice: the magnitude of the vector never changes {v1, v2, ..., vn), but it is multiplied by a different basis
 * If we bring all of these transformation into a matrix it looks as the follow
 
-<!-- <p align="center"> -->
 $$S_{A \rightarrow B}[v]_{A} = [ [a_1]_B  [a_2]_B ... [a_n]_B]$$
-<!-- <p/> -->
 
 where
 - $[a_n]_B$ is a column vector - component of basis-A represented in basis-B
