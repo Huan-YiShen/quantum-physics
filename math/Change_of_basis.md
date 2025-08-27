@@ -59,8 +59,15 @@ when question gives you the starting and resulting basis
 
 When I first learned this process, it was difficult for me to understand why ths above steps worked. So I structured this document in such a way to explain the reasoning (proofs) behind each step, starting from the abstract question of how to change bases, ending at the actual computation we need to perform. After understanding this proofs, the actual execution is to work backward, and constructing the matrices is as simple as solve a few lines of linear equations. 
 
+# Change of Basis (Operators)
+Linear operators can be represented as matrices. This representation is only defined for a given basis. So, if we change the basis, the matrix representation of the same linear operators need to be changed as well.
+
+We can use the change-of-basis matrix to witch the matrix representation of a linear operator from one basis to another. 
+
+WIP
+
 # Reference & Examples
 https://www.statlect.com/matrix-algebra/change-of-basis
 
-Remark: In linear algebra, we are constantly working with abstract mathematical symbols and a bunch of linear equations that all look the same. It is easy to get lost in the sause and mix up simple definitions (especally since LA is usually student's first introduction to formal proofs and abstract algebra concepts).  So it is particularly important to pay attention to the reason why we are performing certain calculation. It is important to remember the form of reasoning, not the form of computation.
+Remark: In linear algebra, we are constantly working with abstract mathematic symbols and systems of linear equations that all look the same. It is easy to get lost in the sause and mix up simple definitions (especally since LA is usually student's first introduction to formal proofs and abstract algebra concepts).  So it is particularly important to pay attention to the reason why we are performing certain calculations. It is important to remember the chain of reasoning, and not the form of computation.
 
