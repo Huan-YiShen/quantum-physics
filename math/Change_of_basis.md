@@ -4,6 +4,7 @@ Motivation: In Quantum mechanics and linear algebra, the operation to change the
 Goal: As the name suggest, the goal of the operation is to change a vector from one basis representation to another (i.e. from basis A = {[1,0], [0,1]} to B = {[1,1], [1,-1]}).
 
 Since how we describe operations in linear algebra is via linear operators (matrices), our goal is to create a matrix that transforms the basis. Namely,
+
 <!-- <p align="center"> -->
 $$[v]_{B} = S_{A \rightarrow B}[v]_{A}$$
 <!-- <p/> -->
