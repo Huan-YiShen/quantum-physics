@@ -22,7 +22,7 @@ that physical system (like changing the coordinate system we use to describe a r
 - Vectors by default are represented in cartestian basis - [1,0,0], [0,1,0], [0,0,1] or $\hat i, \hat j, \hat k$. Even when we use a different basis such as B = {[1,1], [1, -1]}, it is still written in the cartestian basis. This can be a source of confusion, but just know that our default communication is always on the cartestian basis.
 
 # Procedure
-## Goal: generate the change-of-basis matrix $S_{A \rightarrow B}$
+## Goal 1: generate the change-of-basis matrix $S_{A \rightarrow B}$
 
 notice: $[v]_A = v_1a_1+v_2a_2+...+v_na_n$ and $[v]_B = v_1b_1+v_2b_2+...+v_nb_n$
 * so if we were able to represent each component of A in basis B ($[a_1]_B$), we are able to change $[v]_A$ to $[v]_B$
@@ -39,7 +39,7 @@ where
 - $[ [a_1]_B [a_2]_B ... [a_n]_B]$ each column of this matrix changes one component of basis-A into basis-B. When the full matrix is applied to vector in basis-A,
 all its component gets represented in basis-B. Thus the change of basis operation is performed.
 
-## Goal: so how to compute this column vector $[a_n]_B$
+## Goal 2: so how to compute this column vector $[a_n]_B$
 - above reasoning proved that we just need to know the column vectors $[a_1]_B$, $[a_2]_B$, ..., $[a_n]_B$ to construct the transformation matrix S
 - you are usually given the starting and resulting basis (namley all its components), also recall $[a_n]_B$ means how to represent $a_n$ using the available components,
 so **all you need to do is to write $a_n$ as a linear combination of the basis components of B**.
@@ -51,5 +51,16 @@ a_n = z_1b_1 + z_2b_2 + ... + z_nb_n \rightarrow [a_n]_B = [z_1, z_2, ..., z_n] 
 \end{matrix}
 $$
 
+## Problem Solving Procedure
+when question gives you the starting and resulting basis
+1. Compute how to starting basis components can be represented by the resulting basis (reasoning see Procedure Goal 2)
+2. Step 1 generates a list of column vectors, put the column vectors in a matrix (reasoning see Procedure Goal 1)
+3. This matrix is the change of basis operator, apply it to any vector in starting basis to change it to the resultant basis. Use it to solve the rest of the problem
+
+When I first learned this process, it was difficult for me to understand why ths above steps worked. So I structured this document in such a way to explain the reasoning (proofs) behind each step, starting from the abstract question of how to change bases, ending at the actual computation we need to perform. After understanding this proofs, the actual execution is to work backward, and constructing the matrices is as simple as solve a few lines of linear equations. 
+
 # Reference & Examples
 https://www.statlect.com/matrix-algebra/change-of-basis
+
+Remark: In linear algebra, we are constantly working with abstract mathematical symbols and a bunch of linear equations that all look the same. It is easy to get lost in the sause and mix up simple definitions (especally since LA is usually student's first introduction to formal proofs and abstract algebra concepts).  So it is particularly important to pay attention to the reason why we are performing certain calculation. It is important to remember the form of reasoning, not the form of computation.
+
