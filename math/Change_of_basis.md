@@ -5,9 +5,9 @@ Goal: As the name suggest, the goal of the operation is to change a vector from 
 
 Since how we describe operations in linear algebra is via linear operators (matrices), our goal is to create a matrix that transforms the basis. Namely,
 
-<!-- <p align="center"> -->
-$$[v]_{B} = S_{A \rightarrow B}[v]_{A}$$
-<!-- <p/> -->
+<p align="center">
+$[v]_{B} = S_{A \rightarrow B}[v]_{A}$
+<p/>
 
 where
 - $[v]_A$ is the vector in basis A
