@@ -1,0 +1,2 @@
+Stupid ideas about quantum info
+- In the introduction, I described the difference and abstraction between quantum info and quantum physics. The interface between these two layers of understanding is the language of quantum mechanics. But what if there is another layers of abstraction on top of quantum info processing. A layer above the quantum gates and circuits. A natural set of quantum data structure. Sensible to build complex algorithms off form.

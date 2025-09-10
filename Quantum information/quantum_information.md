@@ -1,6 +1,9 @@
 # Introuduction
+The study of Quantum information processing, at least its basic theory, does not require a deep understanding of quantum physics. There is a nice layer of abstraction between "The physics of building a device that exhabit quantum properties irl" vs. "what is quantum information processing and how can we use it". This layer of abstraction is the language of quantum mechanics, such as density operator and Dric notations. The underlying physics can be abstracted and the behaviour of this "quantum language" can be thought of as mathemtical axioms. In summary, the mathematical language of quantum mechanics will be the **interface** between quantum physics and quantum information.
 
-## Information processing
+It is here that our story begins, we will first study the langauge of quantum mechanics, most of this will be review from quantum physics. Then we will build up quantum information constructs (qubits, gates, circuits). Finally we will apply these constructs to build quantum information processing techniques (algorithms, communication protocols, etc...)
+
+## Information processing topics
 - classical vs. quantum
 - qubit (review)
   - computational basis state
@@ -15,7 +18,9 @@
     - specific example: Harnamard, CNOT, TOFFLE
     - measurements
   - Quantum Circuits
-- error correction 
+- Quantum Algorithms
+- Quantum Communication
+- Error Correction 
   - noise and coherence (T1, T2, fidelity) 
 
 
