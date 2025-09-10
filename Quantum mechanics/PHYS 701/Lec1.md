@@ -58,7 +58,7 @@ $$\ket a = \sum_b c_b \ket b$$
 - 1.5.2 Transformation matrix
 - 1.5.3 Diagonalization
 - 1.5.4 Unitary Equivalent Observables
-### Position, Momentum, and translation
+### 1.6 Position, Momentum, and translation
 - 1.6.1 Continuous Spectra
 - 1.6.2 Position Eigenkets and Position Measurements
 - 1.6.3 Translation
@@ -93,8 +93,10 @@ $$T(dx) = 1-iKdx$$
 - 1 and the $dx$ is to indicate that it is a infinitesimal change from the identity - property 5 is satified
 - rest of the proeprty can be satified algebrically given property 5
 
-$$[x, T(dx)] = dx \\
-[x_i, K_j] = i\delta_{ij}$$
+$$[x, T(dx)] = dx$$
+
+$$ [x_i, K_j] = i\delta_{ij}$$
+
 given above operators are 3D
 
 # Probabilistic interpretation of QM
