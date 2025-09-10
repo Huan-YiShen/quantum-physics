@@ -34,7 +34,7 @@ $$\ket a = \sum_b c_b \ket b$$
   - dual of operator --> Hermitian adjoint --> **Hermitian**
 - Multiplication
   - non-commutative && associative
-  - $(XY)^\dagger = X^\dagger Y^\dagger$
+  - $(XY)^\dagger = Y^\dagger X^\dagger$
   - **outer product** <-- $\ket a \bra b$
     - if $X\ket a$, then its dual is $\bra a X^\dagger$
 - The associative Axiom of multiplication
