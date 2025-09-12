@@ -110,9 +110,9 @@ $$ \braket{(\Delta A)^2} \braket{(\Delta B)^2} \ge \frac{1}{4} |\braket{[A,B]}|^
 # The Completeness Relation
 The completeness relation, or **closure**, is that the summation of all basis states should add up to the identity
 
-$$ I = \sum_n \ket n \bra n \\
-I = \int_n \ket n \bra n
-$$
+$$ I = \sum_n \ket n \bra n$$
+
+$$I = \int_n \ket n \bra n$$
 
 
 # Probabilistic interpretation of QM
@@ -140,7 +140,9 @@ Now to construct this opeartor, we define some desired properties
     - Taylor expansion $T(dx) = dx + O(dx^2)$
 
 Now to satisfy the above desired condition, define $T$ as the follow
+
 $$T(dx) = 1-iKdx$$
+
 - K need to be Hermitian, so with $i$, T can be unitary
 - 1 and the $dx$ is to indicate that it is a infinitesimal change from the identity - property 5 is satified
 - rest of the proeprty can be satified algebrically given property 5
