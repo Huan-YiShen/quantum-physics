@@ -64,9 +64,61 @@ $$\ket a = \sum_b c_b \ket b$$
 - 1.6.3 Translation
 - 1.6.4 Momentum as a Generator of Translation
 
-# measurement and compatible observables
+# measurement
+- Define measurement process + Borh's rule
+- Probabilistic interpretation
+- Measurement theory --> orthogonal kets = mutually exclusive
+- Expectation vallue
+- Selective measurement
+
+A Measurement is an opeartion that "throws a state into the eigenstate of an observable". Which eigenstate it will result in is described probabilistically via Borh's rule.
+
+$$ \ket \Psi \xrightarrow{meausre} \ket {a'}$$
+
+$$ Prob(a') = |\braket{a'|\Psi}|^2 $$
+
+Assume $\Psi$ is normalized
+
+Empeirically, measurements are performed on an **ensemble** (number of shots = number of measurement performed), rather than a single quantum system. **Pure ensemble** is when all system within the ensemble can be described by the same state. 
+
+# Compatible Observables
+- Compatiable vs incomplatiable observables
+- Degeneracy
+- compatiable observables -> diagonalization
+- Simultaneous eigenket
+
+If A and B are compatible, then their commutation relaiton = 0. Incompatiable otherwise.
+- If A and B are compactable, then they share eigenkets
+- There can be a set of mutually compatible observables 
+
+If A and B are incompatiable, then there does not exists a shared set of eign basis. 
+- In some cases, one can find a subset of eigen basis that are compactable
 
 # The uncertain relation
+Recall:
+- Expectation value of an operator = $\braket A = E[A]$
+- Variance of that operator = $Var(A) = E[(A - E[A])^2]$
+
+If we define $\Delta A \equiv A - \braket A$, then variance is then the $\braket{(\Delta A)^2}$. 
+
+- Alternative defiintion of Variance is $\braket{(\Delta A)^2} = \braket{A^2 - 2A\braket{A} + \braket{A}^2} = \braket{A^2} - 2\braket A\braket A + \braket A^2 = \braket{A^2} - \braket A^2$
+
+The Uncertainty relation is 
+
+$$ \braket{(\Delta A)^2} \braket{(\Delta B)^2} \ge \frac{1}{4} |\braket{[A,B]}|^2 $$
+
+# The Completeness Relation
+The completeness relation, or **closure**, is that the summation of all basis states should add up to the identity
+
+$$ I = \sum_n \ket n \bra n \\
+I = \int_n \ket n \bra n
+$$
+
+
+# Probabilistic interpretation of QM
+$\braket{a|b} \ge 0$ (positive definite metric), for all normalized kets $\braket{a|a} = 1$. Physically this means that ket exists somewhere with 100% probability. This is to conserve the conservation laws. 
+
+Mathematically this means your Hilbert Space is large enough to describe all possible outcome of your quantum state. Your state must exist somewhere inside your Hilbert space. If it is less than 1, that means there is the porbability of your quantum state, exist outside of your Hilbert space.
 
 # Translation and Generator (1.6.3)
   - define infinitesimal translation $T(dx) \ket x = \ket {x + dx}$
@@ -98,8 +150,3 @@ $$[x, T(dx)] = dx$$
 $$ [x_i, K_j] = i\delta_{ij}$$
 
 given above operators are 3D
-
-# Probabilistic interpretation of QM
-$\braket{a|b} \ge 0$ (positive definite metric), for all normalized kets $\braket{a|a} = 1$. Physically this means that ket exists somewhere with 100% probability. This is to conserve the conservation laws. 
-
-Mathematically this means your Hilbert Space is large enough to describe all possible outcome of your quantum state. Your state must exist somewhere inside your Hilbert space. If it is less than 1, that means there is the porbability of your quantum state, exist outside of your Hilbert space.
