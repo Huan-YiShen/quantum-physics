@@ -1,0 +1,1 @@
+So since oneNote alreayd have an organized note section that separate topics via lecture sequence, we can use this space to describe individual topics (Translation, angular momentum, etc, etc). Completely in our own word. And later integrate it into the "Quantum mechanics" folder, instead storing it in its own PHYS701 directory.
